@@ -28,10 +28,25 @@ def listify(sentence):
 	return result
 
 if __name__ == '__main__':
-	arr = []
+	filecorpus = "db/corpus.pkl"
+	filedict = "db/dict.pkl"
+	try:
+		corparr = store.unpickle(filecorpus)
+		lastid = corparr[1]
+		corpus = corparr[0]
+		dictarr= store.unpickle(filedict)
+		dictionary = dictarr
+	except IOError:
+		corpus = []
+		dictionary = []
+		lastid = -1
+		arr = []
+	num = int(sys.stdin.readline())
+	speecharr = []
 	speechold = sys.stdin.readline()
-	while True:
+	speecharr.append(speechold)
+	for i in range(0,num-2)
 		speech = sys.stdin.readline()
-		arr.append(convert(speechold, speech))
-		speechold = speech
-		print arr
+		speecharr.append(speech)
+		speecharr.append(speech)
+	speecharr.append(sys.stdin.readline())
