@@ -9,24 +9,24 @@ def response(sentence):
 	for i in range(0,len(sentence)):
 		commonval = 0
 		dictentry = searchdict(sentence[i])
-		print dictentry
+		#print dictentry
 		if dictentry != False:
 			sentencesort.append([sentence[i],dictentry])
-	print sentencesort
+	#print sentencesort
 	sentencesort = sorted(sentencesort, key=lambda x: x[1])
-	print sentencesort
+	#print sentencesort
 	#TODO: NN implementation. Weights: most words common vs commonness of words
 	sentencesortnew = []
 	for i in sentencesort:
 		sentencesortnew.append(i[0])
-	print sentencesortnew
+	#print sentencesortnew
 	if len(sentencesortnew) == 0:
 		return False
-	print "commonness -------------------------"
+	#print "commonness -------------------------"
 	return common(sentencesortnew,corpus)
 
 def common(s, corpu):
-	print s
+	#print s
 	#returns corpus consisting of [["statement"],["response"]]
 	if len(corpu) == 1:
 		return corpu
@@ -37,13 +37,13 @@ def common(s, corpu):
 			return None
 	if searchdict(s[0]) != False:
 		corpu = searchcorpus(s[0],corpu)
-		print corpu
+		#print corpu
 	s.pop(0)
 	return common(s, corpu)
 
 def listify(sentence):
 	sentence = list(sentence.lower())
-	print sentence
+	#print sentence
 	result = []
 	alphalist = list(alphabet)
 	word = ""
@@ -61,7 +61,7 @@ def listify(sentence):
 			flag = False
 	if word != "":
 		result.append(word)
-	print result
+	#print result
 	return result
 
 def searchdict(word):
