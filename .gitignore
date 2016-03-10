@@ -3,3 +3,4 @@
 db
 chatbot/*.pyc
 dbutils/*.pyc
+._*
