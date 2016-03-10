@@ -12,8 +12,20 @@ import sys
 #filedict: [dictarr]
 #statements: [[["a","human","statement"],0],[["another","human","statement"],1]]
 #fullstatements: {0:"A human statement",1:"Another human statement"}
-#on computer response: look for statement matching. 
+#These are responses to questions human has said. 
+#if a statement == a str in corpus, it can be removed along with its corresponding dict pair
+
+#on computer response: look for statement matching it.
+
 #TODO: develop algorithm for qualitative comparison of input to corpus probs
+#Test algorithm:
+#for every common word, sum of frequencies of words common to both sentencs as fraction
+
+#to be developed: 
+#incorporate length difference of sentences; fraction of common words / ave length of sentences
+#context (last sentence) - how common is the context of the 'q' part of sentence that will be used to the current sentence? 
+#run rate() on all possible contexts for a sentence and then take the best result.
+#etc. NN implementation would really be useful
 
 def quit():
 	print "Saving corpus..."

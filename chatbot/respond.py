@@ -88,6 +88,15 @@ class Responder:
 			return False
 		return result
 
+	def rate(self, sentencea, sentenceb):
+		#sentences as list, please
+		commonwords = []
+		for i in sentencea:
+			if i in sentenceb and i not in commonwords:
+				commonwords.append(i)
+		
+
+
 if __name__ == '__main__':
 	sentence = sys.stdin.readline()
 	sentence = listify(sentence)
