@@ -1,4 +1,6 @@
+from __future__ import division
 import sys
+
 
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
@@ -88,17 +90,38 @@ class Responder:
 			return False
 		return result
 
+	def dictlen(self):
+		totalfreq = 0
+		for i in dictionary:
+			totalfreq += i[1]
+		return totalfreq
+
 	def rate(self, sentencea, sentenceb):
 		#sentences as list, please
 		commonwords = []
 		for i in sentencea:
 			if i in sentenceb and i not in commonwords:
 				commonwords.append(i)
+		print commonwords
+		rate = 0
+		for word in commonwords:
+			freq = self.searchdict(word)/self.dictlen()
+			print freq
+			rate = rate+freq
+		length = len(commonwords)
+		print rate
+		rate = (length-rate)/((len(sentencea)+len(sentenceb))/2)
+		return rate
+
 		
 
 
 if __name__ == '__main__':
-	sentence = sys.stdin.readline()
-	sentence = listify(sentence)
-	print response(sentence)
+	sentencea = sys.stdin.readline()
+	sentenceb = sys.stdin.readline()
+	corpus = []
+	dictionary = [['do', 1], ['you', 11], ['like', 2], ['fish', 2], ['yes', 1], ['i', 12], ['hate', 1], ['potatoes', 1], ['no', 1], ['dont', 3], ['have', 4], ['to', 4], ['go', 2], ['the', 4], ['bathroom', 2], ['drink', 2], ['too', 4], ['much', 4], ['coffee', 4], ['but', 2], ['love', 2], ['well', 2], ['its', 2], ['your', 2], ['life', 2], ['eat', 2], ['chocolate', 2], ['think', 4], ['so', 2], ['looked', 2], ['in', 2], ['mirror', 2], ['do', 1], ['im', 2], ['getting', 2], ['fat', 2], ['do', 1], ['didnt', 2], ['say', 4], ['that', 2], ['what', 2], ['did', 2], ['said', 1]]
+	Respond = Responder(corpus, dictionary)
+
+	print Respond.rate(Respond.listify(sentencea), Respond.listify(sentenceb))
 
