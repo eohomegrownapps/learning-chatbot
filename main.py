@@ -10,7 +10,7 @@ import sys
 #dictionary = [['do', 1], ['you', 11], ['like', 2], ['fish', 2], ['yes', 1], ['i', 12], ['hate', 1], ['potatoes', 1], ['no', 1], ['dont', 3], ['have', 4], ['to', 4], ['go', 2], ['the', 4], ['bathroom', 2], ['drink', 2], ['too', 4], ['much', 4], ['coffee', 4], ['but', 2], ['love', 2], ['well', 2], ['its', 2], ['your', 2], ['life', 2], ['eat', 2], ['chocolate', 2], ['think', 4], ['so', 2], ['looked', 2], ['in', 2], ['mirror', 2], ['do', 1], ['im', 2], ['getting', 2], ['fat', 2], ['do', 1], ['didnt', 2], ['say', 4], ['that', 2], ['what', 2], ['did', 2], ['said', 1]]
 #filecorpus: [corpus,lastid (this is last id used),corpfull]
 #filedict: [dictarr]
-#statements: [[["a","human","statement"],0],[["another","human","statement"],1]]
+#statements: [[["a","human","statement"],0,rateval],[["another","human","statement"],1,rateval]] in order of rateval - lowest first.
 #fullstatements: {0:"A human statement",1:"Another human statement"}
 #These are responses to questions human has said. 
 #if a statement == a str in corpus, it can be removed along with its corresponding dict pair
@@ -19,13 +19,19 @@ import sys
 
 #TODO: develop algorithm for qualitative comparison of input to corpus probs
 #Test algorithm:
-#for every common word, sum of frequencies of words common to both sentencs as fraction
+#for every common word, sum of frequencies of words common to both sentences as fraction
 
 #to be developed: 
 #incorporate length difference of sentences; fraction of common words / ave length of sentences
 #context (last sentence) - how common is the context of the 'q' part of sentence that will be used to the current sentence? 
 #run rate() on all possible contexts for a sentence and then take the best result.
 #etc. NN implementation would really be useful
+
+#with algorithm, run it on (sentence, response). if rate > 0.5 (just test value, can be improved with trials or a NN):
+#just give response
+#otherwise respond by saying the first statement in statements (i.e. lowest rate value)
+#give rate trigger value as storage in database
+
 
 def quit():
 	print "Saving corpus..."
@@ -76,5 +82,6 @@ while True:
 		quit()
 		break
 	sentence = responder.response(sentence)
+	rating = responder.rate(sentence[0], sentence[1])
 	sentid = sentence[0][2]
 	print fullcorp[sentid][1]
