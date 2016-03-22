@@ -94,6 +94,14 @@ while True:
 		quit()
 		break
 	answer = responder.response(sentence)
+	if len(answer) > 1:
+		#higher frequency of words in answer (in dict) - more common words means more likely to be a 'catch-all' answer.
+		arr = []
+		for i in range(0,len(answer)):
+			arr.append(responder.howcommon(answer[i][0]))
+	maximum = 0
+
+
 	rating = responder.rate(sentence, answer[0][0])
 	if rating > 0.5:
 		sentid = sentence[0][2]

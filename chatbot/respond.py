@@ -1,6 +1,6 @@
 from __future__ import division
 import sys
-
+#please only give me sentences as list
 
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
@@ -113,6 +113,13 @@ class Responder:
 		rate = (length-rate)/((len(sentencea)+len(sentenceb))/2)
 		return rate
 
+	def howcommon(self, sentence):
+		result = 0
+		for i in sentence:
+			length = searchdict(i)
+			if length != False:
+				result += length
+		return result
 		
 
 
