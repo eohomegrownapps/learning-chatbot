@@ -92,7 +92,7 @@ class Responder:
 
 	def dictlen(self):
 		totalfreq = 0
-		for i in dictionary:
+		for i in self.dictionary:
 			totalfreq += i[1]
 		return totalfreq
 
@@ -121,6 +121,11 @@ class Responder:
 				result += length
 		return result
 		
+	def updatecorpus(corpus):
+		self.corpus = corpus
+
+	def updatedict(dictionary):
+		self.dictionary = dictionary
 
 
 if __name__ == '__main__':

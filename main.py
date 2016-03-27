@@ -1,6 +1,7 @@
 from chatbot import respond
 from dbutils import store
 import sys
+import random
 
 #corpus = [[["do","you","like","fish"],["yes","i","like","fish"]], [["i","hate","potatoes"],["no","i","dont"]],[["i", "have", "to", "go", "to", "the", "bathroom"], ["you", "drink", "too", "much", "coffee"]], [["you", "drink", "too", "much", "coffee"], ["but", "i", "love", "coffee"]], [["but", "i", "love", "coffee"], ["well", "its", "your", "life"]], [["well", "its", "your", "life"], ["you", "eat", "too", "much", "chocolate"]], [["you", "eat", "too", "much", "chocolate"], ["i", "dont", "think", "so"]], [["i", "dont", "think", "so"], ["have", "you", "looked", "in", "the", "mirror"]], [["have", "you", "looked", "in", "the", "mirror"], ["do", "you", "think", "im", "getting", "fat"]], [["do", "you", "think", "im", "getting", "fat"], ["i", "didnt", "say", "that"]], [["i", "didnt", "say", "that"], ["what", "did", "you", "say"]], [["what", "did", "you", "say"], ["i", "said", "i", "have", "to", "go", "to", "the", "bathroom"]]]
 #stored as words in array
@@ -50,6 +51,10 @@ def quit():
 	print "Saved"
 	print "Goodbye"
 
+def dictadd(sentencelist, respondinst):
+	for i in sentencelist:
+		if respondinst.searchdict(i)
+
 
 #CONFIG
 filecorpus = "db/corpus.pkl"
@@ -58,7 +63,6 @@ filestatements = "db/statements.pkl"
 
 corparr = store.unpickle(filecorpus)
 if corparr != False:
-	assumptions = corparr[3]
 	lastid = corparr[2]
 	corpus = corparr[0]
 	fullcorp = corparr[1]
@@ -82,36 +86,78 @@ if statearr != False:
 else:
 	statements = []
 	fullstate = {} 
-	lastid = -1
-
+	laststateid = -1
+random.seed()
+usestatement = False
+#this would be statement id if true
+responder = respond.Responder(corpus,dictionary)
 while True:
 	#print corpus
 	#print dictionary
-	responder = respond.Responder(corpus,dictionary)
 	sentenceoriginal = sys.stdin.readline()
 	sentence = responder.listify(sentenceoriginal)
 	if sentence[0] == "quit":
 		quit()
 		break
+	if usestatement != False:
+		lastid += 1
+		corpus.append([statements[usestatement], sentence, lastid])
+		fullstate[lastid] = [fullstate[usestatement],sentenceoriginal]
+		for i in range(0,len(statements)):
+			if statements[i][1] == usestatement:
+				statements.pop(i)
+				fullstate.pop(i)
+		usestatement = False
+		dictadd(statements[usestatement])
+		dictadd(sentence)
+	
 	answer = responder.response(sentence)
-	if len(answer) > 1:
-		#higher frequency of words in answer (in dict) - more common words means more likely to be a 'catch-all' answer.
-		arr = []
-		for i in range(0,len(answer)):
-			arr.append(responder.howcommon(answer[i][0]))
-	maximum = 0
-
-
-	rating = responder.rate(sentence, answer[0][0])
-	if rating > 0.5:
-		sentid = sentence[0][2]
-		print fullcorp[sentid][1]
+	if answer == False: 
+		rating = 0
+		if len(statements)>1:
+			usestatement = statements[0][1]
+			returned = fullstate[usestatement]
+			print returned
+		else:
+			#for now choose random from corpus
+			randomnum = random.randint(0,len(corpus)-1)
+			sentid = corpus[randomnum][2]
+			print fullcorp[sentid][1]
 	else:
-		#do the choose from statements thing
-		#what to do if no statements?
+		index = 0
+		if len(answer) > 1:
+			#higher frequency of words in answer (in dict) - more common words means more likely to be a 'catch-all' answer.
+			arr = []
+			for i in range(0,len(answer)):
+				arr.append(responder.howcommon(answer[i][0]))
+			maximum = 0
+			for j in range(0, len(arr)):
+				if arr[j]>arr[maximum]:
+					maximum = j
+			index = maximum
+
+
+		rating = responder.rate(sentence, answer[index][0])
+		if rating > 0.5:
+			sentid = answer[0][2]
+			print fullcorp[sentid][1]
+		else:
+			#do the choose from statements thing
+			#what to do if no statements?
+			if len(statements)>1:
+				usestatement = statements[0][1]
+				returned = fullstate[usestatement]
+				print returned
+			else:
+				sentid = answer[0][2]
+				print fullcorp[sentid][1]
+
 	laststateid += 1
 	addtostatement = [sentence,laststateid,rating]
 	addtofullstate = sentenceoriginal
 	statements.append(addtostatement)
-	statements = sorted(statements, key=lambda x: x[3])
+	statements = sorted(statements, key=lambda x: x[2])
 	fullstate[laststateid] = sentenceoriginal
+
+	#then add to corpus [comp statement, human statement] if not first
+	#actually, maybe not
