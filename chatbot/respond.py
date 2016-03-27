@@ -102,21 +102,21 @@ class Responder:
 		for i in sentencea:
 			if i in sentenceb and i not in commonwords:
 				commonwords.append(i)
-		print commonwords
+		#print commonwords
 		rate = 0
 		for word in commonwords:
 			freq = self.searchdict(word)/self.dictlen()
-			print freq
+			#print freq
 			rate = rate+freq
 		length = len(commonwords)
-		print rate
+		#print rate
 		rate = (length-rate)/((len(sentencea)+len(sentenceb))/2)
 		return rate
 
 	def howcommon(self, sentence):
 		result = 0
 		for i in sentence:
-			length = searchdict(i)
+			length = self.searchdict(i)
 			if length != False:
 				result += length
 		return result
