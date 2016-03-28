@@ -90,6 +90,14 @@ class Responder:
 			return False
 		return result
 
+	def sentenceincorpus(self, sent, corp):
+		result = []
+		for i in corp:
+			stripped = i[0]
+			if sent == stripped:
+				return True
+		return False
+
 	def dictlen(self):
 		totalfreq = 0
 		for i in self.dictionary:
@@ -110,7 +118,10 @@ class Responder:
 			rate = rate+freq
 		length = len(commonwords)
 		#print rate
+		sentencediff = abs(len(sentencea)-len(sentenceb))
+		sentencemean = sentencediff/((len(sentencea)+len(sentenceb))/2)
 		rate = (length-rate)/((len(sentencea)+len(sentenceb))/2)
+		rate = rate + sentencemean
 		return rate
 
 	def howcommon(self, sentence):

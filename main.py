@@ -110,7 +110,7 @@ else:
 	fullstate = {} 
 	laststateid = -1
 random.seed()
-usestatement = False
+usestatement = 'False'
 #this would be statement id if true
 responder = respond.Responder(corpus,dictionary)
 while True:
@@ -123,13 +123,17 @@ while True:
 	if sentence[0] == "quit":
 		quit(responder)
 		break
-	if usestatement != False:
+	if usestatement != 'False':
+		#print "Using statement"
 		lastid += 1
 		#print "add to corpus"
 		#print [statements[findindexbyid(usestatement)], sentence, lastid]
 		#print [fullstate[usestatement],sentenceoriginal]
-		responder.corpus.append([statements[findindexbyid(usestatement)], sentence, lastid])
+		responder.corpus.append([statements[findindexbyid(usestatement)][0], sentence, lastid])
 		fullcorp[lastid] = [fullstate[usestatement],sentenceoriginal]
+		dictadd(statements[findindexbyid(usestatement)], responder)
+		dictadd(sentence, responder)
+
 		for i in range(0,len(statements)):
 			#print statements
 			#print i
@@ -144,10 +148,9 @@ while True:
 				break
 		#print "after pop"
 		#print statements
-		#print fullstate
-		usestatement = False
-		dictadd(statements[findindexbyid(usestatement)], responder)
-		dictadd(sentence, responder)
+
+		
+		usestatement = 'False'
 	
 	answer = responder.response(sentence)
 	if answer == False: 
@@ -201,17 +204,18 @@ while True:
 			addstate = state
 			#print addstate
 	#print addstate
-	if addstate == "true":
-		#print "addtostatement"
-		laststateid += 1
-		addtostatement = [sentence,laststateid,rating]
-		#print addtostatement
-		addtofullstate = sentenceoriginal
-		statements.append(addtostatement)
-		fullstate[laststateid] = sentenceoriginal
-	elif rating>statements[addstate][2]:
-		statements[addstate][2] = rating
-	statements = sorted(statements, key=lambda x: x[2])
+	if responder.sentenceincorpus(sentence,responder.corpus)==False:
+		if addstate == "true":
+			#print "addtostatement"
+			laststateid += 1
+			addtostatement = [sentence,laststateid,rating]
+			#print addtostatement
+			addtofullstate = sentenceoriginal
+			statements.append(addtostatement)
+			fullstate[laststateid] = sentenceoriginal
+		elif rating>statements[addstate][2]:
+			statements[addstate][2] = rating
+		statements = sorted(statements, key=lambda x: x[2])
 
 	#then add to corpus [comp statement, human statement] if not first
 	#actually, maybe not
