@@ -1,3 +1,4 @@
+#A little message: "You absolutely do NOT let an algorithm mindlessly devour a whole bunch of data that you haven't vetted even a little bit."
 from chatbot import respond
 from dbutils import store
 import sys
@@ -204,9 +205,8 @@ while True:
 			addstate = state
 			#print addstate
 	#print addstate
-
 	#TODO: Work on having many answers for 1 Q in corpus (e.g. ["How are you",["I'm fine","Not that great"]])
-	#beginif
+
 	if responder.sentenceincorpus(sentence,responder.corpus)==False:
 		if addstate == "true":
 			#print "addtostatement"
@@ -219,7 +219,6 @@ while True:
 		elif rating>statements[addstate][2]:
 			statements[addstate][2] = rating
 		statements = sorted(statements, key=lambda x: x[2])
-	#endif
 
 	#then add to corpus [comp statement, human statement] if not first
 	#actually, maybe not

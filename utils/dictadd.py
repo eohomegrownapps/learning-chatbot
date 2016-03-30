@@ -2,13 +2,18 @@ corpus = [[["do","you","like","fish"],["yes","i","like","fish"]], [["i","hate","
 dictionary =[]
 def dictmake(corpus):
 	for i in corpus:
-		for j in i:
-			for k in j:
-				find = findindex(k,dictionary)
-				if find != False:
-					dictionary[find][1]+=1
-				else:
-					dictionary.append([k,1])
+		for k in i[0]:
+			find = findindex(k,dictionary)
+			if find != False:
+				dictionary[find][1]+=1
+			else:
+				dictionary.append([k,1])
+		for k in i[1]:
+			find = findindex(k,dictionary)
+			if find != False:
+				dictionary[find][1]+=1
+			else:
+				dictionary.append([k,1])
 	return dictionary
 def findindex(word,source):
 	for i in range(0,len(source)):
