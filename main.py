@@ -131,7 +131,7 @@ while True:
 		#print [fullstate[usestatement],sentenceoriginal]
 		responder.corpus.append([statements[findindexbyid(usestatement)][0], sentence, lastid])
 		fullcorp[lastid] = [fullstate[usestatement],sentenceoriginal]
-		dictadd(statements[findindexbyid(usestatement)], responder)
+		dictadd(statements[findindexbyid(usestatement)][0], responder)
 		dictadd(sentence, responder)
 
 		for i in range(0,len(statements)):
@@ -204,6 +204,9 @@ while True:
 			addstate = state
 			#print addstate
 	#print addstate
+
+	#TODO: Work on having many answers for 1 Q in corpus (e.g. ["How are you",["I'm fine","Not that great"]])
+	#beginif
 	if responder.sentenceincorpus(sentence,responder.corpus)==False:
 		if addstate == "true":
 			#print "addtostatement"
@@ -216,6 +219,7 @@ while True:
 		elif rating>statements[addstate][2]:
 			statements[addstate][2] = rating
 		statements = sorted(statements, key=lambda x: x[2])
+	#endif
 
 	#then add to corpus [comp statement, human statement] if not first
 	#actually, maybe not
