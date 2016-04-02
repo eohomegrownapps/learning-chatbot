@@ -30,6 +30,23 @@ class Responder:
 		#print "commonness -------------------------"
 		return self.common(sentencesortnew,self.corpus)
 
+	#Test algorithm
+	def responserate(self, sentence):
+		maximum = None
+		#corpus = [[["hello"],["hi"],0],[["hi"],["hello"],1]]
+		#[[corpusentries],rating]
+		for i in self.corpus:
+			rating = self.rate(sentence,i[0])
+			if maximum != None:
+				if maximum[1]<rating:
+					maximum = [[i],rating]
+				elif maximum[1]==rating:
+					maximum[0].append(i)
+			else:
+				maximum = [[i],rating]
+		#print maximum
+		return maximum[0]
+
 	def common(self, s, corpu):
 		#print s
 		#returns corpus consisting of [["statement"],["response"]]
@@ -104,7 +121,7 @@ class Responder:
 			totalfreq += i[1]
 		return totalfreq
 
-	def rate(self, sentencea, sentenceb):
+	"""def rate(self, sentencea, sentenceb):
 		#sentences as list, please
 		commonwords = []
 		for i in sentencea:
@@ -122,6 +139,30 @@ class Responder:
 		sentencemean = sentencediff/((len(sentencea)+len(sentenceb))/2)
 		rate = (length-rate)/((len(sentencea)+len(sentenceb))/2)
 		rate = rate + sentencemean
+		return rate"""
+
+	def rate(self, sentencea, sentenceb):
+		#print "rate"
+		#sentences as list, please
+		commonwords = []
+		for i in sentencea:
+			if i in sentenceb and i not in commonwords:
+				commonwords.append(i)
+		#print commonwords
+		rate = 0
+		for word in commonwords:
+			freq = self.searchdict(word)/self.dictlen()
+			#print freq
+			rate = rate+freq
+		length = len(commonwords)
+		#print rate
+		sentencediff = abs(len(sentencea)-len(sentenceb))
+		#print sentencediff
+		sentencemean = sentencediff/((len(sentencea)+len(sentenceb))/2)
+		#print sentencemean
+		rate = (length-rate)/((len(sentencea)+len(sentenceb))/2)
+		#print rate
+		rate = rate - (sentencemean/4)
 		return rate
 
 	def howcommon(self, sentence):

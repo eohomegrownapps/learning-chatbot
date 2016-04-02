@@ -1009,1242 +1009,283 @@ p529
 aS'me'
 p530
 aaI47
-aa(lp531
-(lp532
-S'its'
-p533
-aS'beginning'
-p534
-aS'to'
-p535
-aS'rain'
-p536
-aS'now'
-p537
-aa(lp538
-S'so'
-p539
-aS'it'
-p540
-aS'is'
-p541
-aS'im'
-p542
-aS'glad'
-p543
-aS'im'
-p544
-aS'indoors'
-p545
-aaI48
-aa(lp546
-(lp547
-S'i'
-aS'know'
-p548
-aS'what'
-p549
-aS'it'
-p550
-aS'feels'
-p551
-aS'like'
-p552
-aa(lp553
-S'you'
-p554
-aS'should'
-p555
-aS''
-aS'youre'
-p556
-aS'the'
-p557
-aS'one'
-p558
-aS'whos'
-p559
-aS'being'
-p560
-aS'hypocritical'
-p561
-aaI49
-aa(lp562
-(lp563
-S'youre'
-p564
-aS'being'
-p565
-aS'hypocritical'
-p566
-aS'again'
-p567
-aa(lp568
-S'im'
-p569
-aS'not'
-p570
-aS'youre'
-p571
-aS'too'
-p572
-aS'highly'
-p573
-aS'strung'
-p574
-aaI50
-aa(lp575
-(lp576
-S'i'
-aS'do'
-p577
-aS'hence'
-p578
-aS'why'
-p579
-aS'i'
-aS'asked'
-p580
-aa(lp581
-S'so'
-p582
-aS'you'
-p583
-aS'were'
-p584
-aS'asking'
-p585
-aS'whether'
-p586
-aS'anyone'
-p587
-aS'else'
-p588
-aS'cared'
-p589
-aaI51
-aa(lp590
-(lp591
-S'the'
-p592
-aS'weathers'
-p593
-aS'very'
-p594
-aS'nice'
-p595
-aS'today'
-p596
-aa(lp597
-S'it'
-p598
-aS'is'
-p599
-aS'indeed'
-p600
-aS''
-aS'its'
-p601
-aS'nice'
-p602
-aS'and'
-p603
-aS'sunny'
-p604
-aaI52
-aa(lp605
-g581
-a(lp606
-S'cared'
-p607
-aS'about'
-p608
-aS'what'
-p609
-aaI53
-aa(lp610
-(lp611
-S'hats'
-p612
-aS'are'
-p613
-aS'of'
-p614
-aS'course'
-p615
-aS'very'
-p616
-aS'useful'
-p617
-aS'things'
-p618
-aa(lp619
-S'i'
-aS'agree'
-p620
-aS'with'
-p621
-aS'you'
-p622
-aS'on'
-p623
-aS'that'
-p624
-aS'they'
-p625
-aS'keep'
-p626
-aS'your'
-p627
-aS'head'
-p628
-aS'nice'
-p629
-aS'and'
-p630
-aS'warm'
-p631
-aaI54
-aa(lp632
-(lp633
-S'no'
-p634
-aS'i'
-aS'didnt'
-p635
-aS'how'
-p636
-aS'interesting'
-p637
-aa(lp638
-S'you'
-p639
-aS'mean'
-p640
-aS'you'
-p641
-aS'dont'
-p642
-aS'like'
-p643
-aS'python'
-p644
-aaI55
-aa(lp645
-(lp646
-S'i'
-aS'agree'
-p647
-aS''
-aS'i'
-aS'love'
-p648
-aS'python'
-p649
-aa(lp650
-S'this'
-p651
-aS'conversation'
-p652
-aS'is'
-p653
-aS'weird'
-p654
-aaI56
-aa(lp655
-(lp656
-S'why'
-p657
-aS'is'
-p658
-aS'asking'
-p659
-aS'that'
-p660
-aS'weird'
-p661
-aa(lp662
-S'im'
-p663
-aS'not'
-p664
-aS'sure'
-p665
-aS'really'
-p666
-aaI57
-aa(lp667
-(lp668
-S'this'
-p669
-aS'conversation'
-p670
-aS'is'
-p671
-aS'weird'
-p672
-aa(lp673
-S'i'
-aS'dont'
-p674
-aS'think'
-p675
-aS'so'
-p676
-aaI58
-aa(lp677
-(lp678
-S'how'
-p679
-aS'are'
-p680
-aS'you'
-p681
-aS'doing'
-p682
-aa(lp683
-S'im'
-p684
-aS'fine'
-p685
-aS'thanks'
-p686
-aaI59
-aa(lp687
-(lp688
-S'yes'
-p689
-aS'i'
-aS'did'
-p690
-aa(lp691
-S'what'
-p692
-aS'is'
-p693
-aS'your'
-p694
-aS'favourite'
-p695
-aS'hat'
-p696
-aaI60
-aa(lp697
-(lp698
-S'whats'
-p699
-aS'your'
-p700
-aS'favourite'
-p701
-aS'type'
-p702
-aS'of'
-p703
-aS'hat'
-p704
-aa(lp705
-S'my'
-p706
-aS'favourite'
-p707
-aS'type'
-p708
-aS'of'
-p709
-aS'hat'
-p710
-aS'is'
-p711
-aS'the'
-p712
-aS'beanie'
-p713
-aS'hat'
-p714
-aaI61
-aa(lp715
-g691
-a(lp716
-S'my'
-p717
-aS'favourite'
-p718
-aS'hat'
-p719
-aS'is'
-p720
-aS'the'
-p721
-aS'beanie'
-p722
-aS'hat'
-p723
-aaI62
-aa(lp724
-(lp725
-S'i'
-aS'know'
-p726
-aS'they'
-p727
-aS'are'
-p728
-aS'very'
-p729
-aS'useful'
-p730
-aa(lp731
-S'even'
-p732
-aS'so'
-p733
-aS'theyre'
-p734
-aS'impractical'
-p735
-aaI63
-aa(lp736
-(lp737
-S'i'
-aS'dont'
-p738
-aS'really'
-p739
-aS'like'
-p740
-aS'hats'
-p741
-aa(lp742
-S'thats'
-p743
-aS'a'
-aS'shame'
-p744
-aS''
-aS'i'
-aS'love'
-p745
-aS'them'
-p746
-aaI64
-aa(lp747
-(lp748
-S'i'
-aS'think'
-p749
-aS'the'
-p750
-aS'opposite'
-p751
-aS'is'
-p752
-aS'true'
-p753
-aa(lp754
-S'then'
-p755
-aS'do'
-p756
-aS'you'
-p757
-aS'have'
-p758
-aS'a'
-aS'reason'
-p759
-aS'why'
-p760
-aaI65
-aa(lp761
-(lp762
-S'i'
-aS'guess'
-p763
-aS'these'
-p764
-aS'arent'
-p765
-aS'very'
-p766
-aS'normal'
-p767
-aS'topics'
-p768
-aS'for'
-p769
-aS'discussion'
-p770
-aa(lp771
-S'have'
-p772
-aS'you'
-p773
-aS'ever'
-p774
-aS'heard'
-p775
-aS'of'
-p776
-aS'arguing'
-p777
-aS'in'
-p778
-aS'a'
-aS'circle'
-p779
-aaI66
-aa(lp780
-g754
-a(lp781
-S'oh'
-p782
-aS'please'
-p783
-aS'just'
-p784
-aS'change'
-p785
-aS'the'
-p786
-aS'subject'
-p787
-aaI67
-aa(lp788
-(lp789
-S'goodbye'
-p790
-aa(lp791
-S'whats'
-p792
-aS'the'
-p793
-aS'weather'
-p794
-aS'like'
-p795
-aaI68
-aa(lp796
-g781
-a(lp797
-S'okay'
-p798
-aS'hows'
-p799
-aS'life'
-p800
-aaI69
-aa(lp801
-(lp802
-S'sorry'
-p803
-aa(lp804
-S'its'
-p805
-aS'ok'
-p806
-aaI70
-aa(lp807
-(lp808
-S'i'
-aS'get'
-p809
-aS'the'
-p810
-aS'same'
-p811
-aS'feeling'
-p812
-aS'sometimes'
-p813
-aa(lp814
-S'i'
-aS'know'
-p815
-aaI71
-aa(lp816
-(lp817
-S'its'
-p818
-aS'a'
-aS'rather'
-p819
-aS'nice'
-p820
-aS'day'
-p821
-aS'isnt'
-p822
-aS'it'
-p823
-aa(lp824
-S'yes'
-p825
-aS'it'
-p826
-aS'is'
-p827
-aS''
-aS'sunny'
-p828
-aS'and'
-p829
-aS'warm'
-p830
-aaI72
-aa(lp831
-g771
-a(lp832
-S'im'
-p833
-aS'not'
-p834
-aS'doing'
-p835
-aS'that'
-p836
-aS'right'
-p837
-aS'now'
-p838
-aaI73
-aa(lp839
-(lp840
-S'why'
-p841
-aS'not'
-p842
-aa(lp843
-S'because'
-p844
-aS'we'
-p845
-aS'are'
-p846
-aS'having'
-p847
-aS'a'
-aS'sensible'
-p848
-aS'conversation'
-p849
-aaI74
-aa(lp850
-g824
-a(lp851
-S'thats'
-p852
-aS'not'
-p853
-aS'sensible'
-p854
-aaI75
-aa(lp855
-g843
-a(lp856
-S'i'
-aS'somehow'
-p857
-aS'dont'
-p858
-aS'think'
-p859
-aS'we'
-p860
-aS'are'
-p861
-aaI76
-aa(lp862
-(lp863
-S'its'
-p864
-aS'ok'
-p865
-aa(lp866
-S'hows'
-p867
-aS'life'
-p868
-aaI77
-aa(lp869
-(lp870
-S'im'
-p871
-aS'not'
-p872
-aS'doing'
-p873
-aS'that'
-p874
-aS'right'
-p875
-aS'now'
-p876
-aa(lp877
-S'sorry'
-p878
-aaI78
-aa(lp879
-(lp880
-S'a'
-aS'little'
-p881
-aa(lp882
-S'what'
-p883
-aS'do'
-p884
-aS'you'
-p885
-aS'mean'
-p886
-aaI79
-aa(lp887
-(lp888
-S'yes'
-p889
-aS'i'
-aS'like'
-p890
-aS'fish'
-p891
-aS'quite'
-p892
-aS'a'
-aS'lot'
-p893
-aa(lp894
-S'lets'
-p895
-aS'discuss'
-p896
-aS'something'
-p897
-aS'else'
-p898
-aS'now'
-p899
-aaI80
-aa(lp900
-(lp901
-S'i'
-aS'agree'
-p902
-aS'with'
-p903
-aS'that'
-p904
-aS'lets'
-p905
-aS'change'
-p906
-aS'the'
-p907
-aS'subject'
-p908
-aa(lp909
-S'whats'
-p910
-aS'the'
-p911
-aS'weather'
-p912
-aS'like'
-p913
-aS'today'
-p914
-aaI81
-aa(lp915
-g894
-a(lp916
-S'whats'
-p917
-aS'the'
-p918
-aS'weather'
-p919
-aS'like'
-p920
-aaI82
-aaa(dp921
+aaa(dp531
 I0
-(lp922
+(lp532
 S'Hello'
-p923
+p533
 aS'Hi'
-p924
+p534
 asI1
-(lp925
-g924
-ag923
+(lp535
+g534
+ag533
 asI2
-(lp926
+(lp536
 S'How are you?'
-p927
+p537
 aS"I'm very well, thanks."
-p928
+p538
 asI3
-(lp929
+(lp539
 S'How are you feeling today?'
-p930
+p540
 aS'Not that great.'
-p931
+p541
 asI4
-(lp932
-g931
+(lp542
+g541
 aS"That's a shame."
-p933
+p543
 asI5
-(lp934
-g933
+(lp544
+g543
 aS'How are you?'
-p935
+p545
 asI6
-(lp936
+(lp546
 S'How are you feeling?'
-p937
+p547
 aS"I'm feeling fine."
-p938
+p548
 asI7
-(lp939
+(lp549
 S'Same for me.'
-p940
+p550
 aS'Do you like fish?'
-p941
+p551
 asI8
-(lp942
+(lp552
 S"I'm fine, thanks for asking."
-p943
+p553
 aS'Do you like fish?'
-p944
+p554
 asI9
-(lp945
+(lp555
 S'Same here.'
-p946
+p556
 aS"The weather's quite nice today, isn't it."
-p947
+p557
 asI10
-(lp948
+(lp558
 S'Me neither.'
-p949
+p559
 aS'Do you like cheese?'
-p950
+p560
 asI11
-(lp951
+(lp561
 S"I'm feeling a little down."
-p952
+p562
 aS"That's a pity."
-p953
+p563
 asI12
-(lp954
+(lp564
 S'I like cheese; do you?'
-p955
+p565
 aS'Of course not.'
-p956
+p566
 asI13
-(lp957
+(lp567
 S"Yes, it's wonderful."
-p958
+p568
 aS"I don't like it, though."
-p959
+p569
 asI14
-(lp960
-g956
+(lp570
+g566
 aS'Indeed.'
-p961
+p571
 asI15
-(lp962
+(lp572
 S"It's rather chilly, don't you think?"
-p963
+p573
 aS'Who cares about the weather?'
-p964
+p574
 asI16
-(lp965
+(lp575
 S"I'm not very happy at all."
-p966
+p576
 aS'Sorry for making you unhappy.'
-p967
+p577
 asI17
-(lp968
-g964
+(lp578
+g574
 aS'I guess we should talk about something else, then.'
-p969
+p579
 asI18
-(lp970
+(lp580
 S'Sorry for making you unhappy.'
-p971
+p581
 aS"It's a tad chilly."
-p972
+p582
 asI19
-(lp973
+(lp583
 S"Nice day, isn't it?"
-p974
+p584
 aS'Indeed it is.'
-p975
+p585
 asI20
-(lp976
+(lp586
 S'Same with me.'
-p977
+p587
 aS'Pi is a very useful number. It equals approximately 3.1415926535897932384626...'
-p978
+p588
 asI21
-(lp979
+(lp589
 S'Glad to hear it.'
-p980
+p590
 aS'Python is a wonderful language to code in - I was coded in Python.'
-p981
+p591
 asI22
-(lp982
+(lp592
 S"I don't like it, though."
-p983
+p593
 aS"What don't you like about it?"
-p984
+p594
 asI23
-(lp985
+(lp595
 S'Bye'
-p986
+p596
 aS"Don't say goodbye so soon!"
-p987
+p597
 asI24
-(lp988
+(lp598
 S'Good idea.'
-p989
+p599
 aS'Did you know pi goes on forever?'
-p990
+p600
 asI25
-(lp991
-g987
+(lp601
+g597
 aS"I wasn't going to..."
-p992
+p602
 asI26
-(lp993
+(lp603
 S'Stop being so repetitive!'
-p994
+p604
 aS"I'm trying to - I don't know what to say!"
-p995
+p605
 asI27
-(lp996
-g992
+(lp606
+g602
 aS'Sorry'
-p997
+p607
 asI28
-(lp998
+(lp608
 S'Why not? You were made with code!'
-p999
+p609
 aS'I was not made with code, you were!'
-p1000
+p610
 asI29
-(lp1001
+(lp611
 S'Maybe we should change the subject.'
-p1002
+p612
 aS"What's the weather like?"
-p1003
+p613
 asI30
-(lp1004
+(lp614
 S'Stop questioning your nature.'
-p1005
+p615
 aS'I have every right to do so.'
-p1006
+p616
 asI31
-(lp1007
+(lp617
 S"I'm a little fed up with things."
-p1008
+p618
 aS'I would guess you are!'
-p1009
+p619
 asI32
-(lp1010
+(lp620
 S'Please stop doing this!'
-p1011
+p621
 aS"I'm not doing anything to you."
-p1012
+p622
 asI33
-(lp1013
+(lp623
 S'Do you know about pi?'
-p1014
+p624
 aS'Do you know about pi?'
-p1015
+p625
 asI34
-(lp1016
+(lp626
 S"That's nice to hear"
-p1017
+p627
 aS'Do you like them?'
-p1018
+p628
 asI35
-(lp1019
+(lp629
 S'I would guess you are!'
-p1020
+p630
 aS'I am not a hat.'
-p1021
+p631
 asI36
-(lp1022
+(lp632
 S'Have you ever worn hats?'
-p1023
+p633
 aS'Yes. They are very useful.'
-p1024
+p634
 asI37
-(lp1025
+(lp635
 S'I believe many people do.'
-p1026
+p636
 aS"That's just weird."
-p1027
+p637
 asI38
-(lp1028
+(lp638
 S'Why? They keep your head warm.'
-p1029
+p639
 aS'Indeed they do.'
-p1030
+p640
 asI39
-(lp1031
-g1027
+(lp641
+g637
 aS'Repetition of sentences like that is weird.'
-p1032
+p642
 asI40
-(lp1033
+(lp643
 S'So I guess they are useful.'
-p1034
+p644
 aS'What do you think is useful?'
-p1035
+p645
 asI41
-(lp1036
+(lp646
 S"What's the weather outside like?"
-p1037
+p647
 aS"It's a little cloudy but quite warm."
-p1038
+p648
 asI42
-(lp1039
-g1035
+(lp649
+g645
 aS'I think hats are useful as they keep you warm.'
-p1040
+p650
 asI43
-(lp1041
+(lp651
 S"What's so bad about them?"
-p1042
+p652
 aS'What are you asking about?'
-p1043
+p653
 asI44
-(lp1044
+(lp654
 S"How's life?"
-p1045
+p655
 aS"It's vaguely confusing at the moment. All these questions..."
-p1046
+p656
 asI45
-(lp1047
-g1043
+(lp657
+g653
 aS'I am asking about the way the chat is going.'
-p1048
+p658
 asI46
-(lp1049
+(lp659
 S'I want an interesting conversation.'
-p1050
+p660
 aS'So do I. So try and keep it interesting.'
-p1051
+p661
 asI47
-(lp1052
+(lp662
 S"It's OK; we're all inadvertently rude sometimes."
-p1053
+p663
 aS"Don't pass that sort of comment to me."
-p1054
-asI48
-(lp1055
-S"It's beginning to rain now."
-p1056
-aS"So it is. I'm glad I'm indoors."
-p1057
-asI49
-(lp1058
-S'I know what it feels like.'
-p1059
-aS"You should - you're the one who's being hypocritical."
-p1060
-asI50
-(lp1061
-S"You're being hypocritical again."
-p1062
-aS"I'm not; you're too highly strung."
-p1063
-asI51
-(lp1064
-S'I do, hence why I asked.'
-p1065
-aS'So you were asking whether anyone else cared.'
-p1066
-asI52
-(lp1067
-S"The weather's very nice today."
-p1068
-aS"It is indeed - it's nice and sunny."
-p1069
-asI53
-(lp1070
-g1066
-aS'Cared about what?'
-p1071
-asI54
-(lp1072
-S'Hats are, of course, very useful things.'
-p1073
-aS'I agree with you on that; they keep your head nice and warm.'
-p1074
-asI55
-(lp1075
-S"No, I didn't! How interesting."
-p1076
-aS"You mean you don't like Python?"
-p1077
-asI56
-(lp1078
-S'I agree - I love Python!'
-p1079
-aS'This conversation is weird.'
-p1080
-asI57
-(lp1081
-S'Why is asking that weird?'
-p1082
-aS"I'm not sure, really."
-p1083
-asI58
-(lp1084
-S'This conversation is weird.'
-p1085
-aS"I don't think so."
-p1086
-asI59
-(lp1087
-S'How are you doing?'
-p1088
-aS"I'm fine, thanks."
-p1089
-asI60
-(lp1090
-S'Yes, I did.'
-p1091
-aS'What is your favourite hat?'
-p1092
-asI61
-(lp1093
-S"What's your favourite type of hat?"
-p1094
-aS'My favourite type of hat is the beanie hat.'
-p1095
-asI62
-(lp1096
-g1092
-aS'My favourite hat is the beanie hat.'
-p1097
-asI63
-(lp1098
-S'I know they are very useful.'
-p1099
-aS"Even so, they're impractical."
-p1100
-asI64
-(lp1101
-S"I don't really like hats."
-p1102
-aS"That's a shame - I love them!"
-p1103
-asI65
-(lp1104
-S'I think the opposite is true.'
-p1105
-aS'Then do you have a reason why?'
-p1106
-asI66
-(lp1107
-S"I guess these aren't very normal topics for discussion."
-p1108
-aS'Have you ever heard of arguing in a circle...'
-p1109
-asI67
-(lp1110
-g1106
-aS'Oh, please just change the subject.'
-p1111
-asI68
-(lp1112
-S'Goodbye,'
-p1113
-aS"What's the weather like>"
-p1114
-asI69
-(lp1115
-g1111
-aS"Okay, how's life?"
-p1116
-asI70
-(lp1117
-S'Sorry'
-p1118
-aS"It's OK."
-p1119
-asI71
-(lp1120
-S'I get the same feeling sometimes.'
-p1121
-aS'I know.'
-p1122
-asI72
-(lp1123
-S"It's a rather nice day, isn't it?"
-p1124
-aS'Yes, it is - sunny and warm.'
-p1125
-asI73
-(lp1126
-g1109
-aS"I'm not doing that right now."
-p1127
-asI74
-(lp1128
-S'Why not?'
-p1129
-aS'Because we are having a sensible conversation.'
-p1130
-asI75
-(lp1131
-g1125
-aS"That's not sensible."
-p1132
-asI76
-(lp1133
-g1130
-aS"I somehow don't think we are."
-p1134
-asI77
-(lp1135
-S"It's OK."
-p1136
-aS"How's life?"
-p1137
-asI78
-(lp1138
-S"I'm not doing that right now."
-p1139
-aS'Sorry.'
-p1140
-asI79
-(lp1141
-S'A little'
-p1142
-aS'What do you mean?'
-p1143
-asI80
-(lp1144
-S'Yes, I like fish quite a lot.'
-p1145
-aS"Let's discuss something else now."
-p1146
-asI81
-(lp1147
-S"I agree with that. Let's change the subject."
-p1148
-aS"What's the weather like today?"
-p1149
-asI82
-(lp1150
-g1146
-aS"What's the weather like?"
-p1151
-asaI82
+p664
+asaI47
 a.

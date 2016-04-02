@@ -35,6 +35,8 @@ import pdb
 #just give response
 #otherwise respond by saying the first statement in statements (i.e. lowest rate value)
 #give rate trigger value (called threshold) as storage in database
+
+#TODO: If respond fails (goes to statement), try a 'rate respond'. If this is over the threshold, give it.
 threshold = 0.5
 
 
@@ -114,6 +116,8 @@ random.seed()
 usestatement = 'False'
 #this would be statement id if true
 responder = respond.Responder(corpus,dictionary)
+
+num = 0
 while True:
 	#print corpus
 	#print dictionary
@@ -180,7 +184,7 @@ while True:
 
 
 		rating = responder.rate(sentence, answer[index][0])
-		if rating > 0.4:
+		if rating > 0.5:
 			sentid = answer[0][2]
 			print fullcorp[sentid][1]
 		else:
@@ -207,6 +211,7 @@ while True:
 	#print addstate
 	#TODO: Work on having many answers for 1 Q in corpus (e.g. ["How are you",["I'm fine","Not that great"]])
 
+	#beginif
 	if responder.sentenceincorpus(sentence,responder.corpus)==False:
 		if addstate == "true":
 			#print "addtostatement"
@@ -218,7 +223,14 @@ while True:
 			fullstate[laststateid] = sentenceoriginal
 		elif rating>statements[addstate][2]:
 			statements[addstate][2] = rating
-		statements = sorted(statements, key=lambda x: x[2])
+
+		if num%4==0:
+			statements = sorted(statements, key=lambda x: x[2], reverse=True)
+		else:
+			statements = sorted(statements, key=lambda x: x[2])
+		num+=1
+	#endif
+
 
 	#then add to corpus [comp statement, human statement] if not first
 	#actually, maybe not
