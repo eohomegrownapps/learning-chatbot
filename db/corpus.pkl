@@ -1766,485 +1766,908 @@ p919
 aS'like'
 p920
 aaI82
-aaa(dp921
-I0
+aa(lp921
 (lp922
-S'Hello'
+S'i'
+aS'somehow'
 p923
-aS'Hi'
+aS'dont'
 p924
-asI1
-(lp925
-g924
-ag923
-asI2
-(lp926
-S'How are you?'
+aS'think'
+p925
+aS'we'
+p926
+aS'are'
 p927
-aS"I'm very well, thanks."
-p928
-asI3
-(lp929
-S'How are you feeling today?'
+aa(lp928
+S'the'
+p929
+aS'weather'
 p930
-aS'Not that great.'
+aS'isnt'
 p931
-asI4
-(lp932
-g931
-aS"That's a shame."
-p933
-asI5
+aS'great'
+p932
+aaI83
+aa(lp933
 (lp934
-g933
-aS'How are you?'
+S'not'
 p935
-asI6
-(lp936
-S'How are you feeling?'
+aS'the'
+p936
+aS'nicest'
 p937
-aS"I'm feeling fine."
+aS'conditions'
 p938
-asI7
-(lp939
-S'Same for me.'
+aS'isnt'
+p939
+aS'it'
 p940
-aS'Do you like fish?'
-p941
-asI8
-(lp942
-S"I'm fine, thanks for asking."
+aa(lp941
+S'no'
+p942
+aS'it'
 p943
-aS'Do you like fish?'
+aS'isnt'
 p944
-asI9
-(lp945
-S'Same here.'
-p946
-aS"The weather's quite nice today, isn't it."
+aaI84
+aa(lp945
+g928
+a(lp946
+S'no'
 p947
-asI10
-(lp948
-S'Me neither.'
+aS'it'
+p948
+aS'isnt'
 p949
-aS'Do you like cheese?'
-p950
-asI11
+aaI85
+aa(lp950
 (lp951
-S"I'm feeling a little down."
+S'thats'
 p952
-aS"That's a pity."
+aS'a'
+aS'shame'
 p953
-asI12
-(lp954
-S'I like cheese; do you?'
+aS'did'
+p954
+aS'you'
 p955
-aS'Of course not.'
+aS'grow'
 p956
-asI13
-(lp957
-S"Yes, it's wonderful."
+aS'up'
+p957
+aS'somewhere'
 p958
-aS"I don't like it, though."
+aS'cold'
 p959
-asI14
-(lp960
-g956
-aS'Indeed.'
-p961
-asI15
-(lp962
-S"It's rather chilly, don't you think?"
+aS'then'
+p960
+aa(lp961
+S'yes'
+p962
+aS'england'
 p963
-aS'Who cares about the weather?'
+aS'is'
 p964
-asI16
-(lp965
-S"I'm not very happy at all."
+aS'rather'
+p965
+aS'cold'
 p966
-aS'Sorry for making you unhappy.'
-p967
-asI17
+aaI86
+aa(lp967
 (lp968
-g964
-aS'I guess we should talk about something else, then.'
+S'thats'
 p969
-asI18
-(lp970
-S'Sorry for making you unhappy.'
+aS'not'
+p970
+aS'sensible'
 p971
-aS"It's a tad chilly."
-p972
-asI19
-(lp973
-S"Nice day, isn't it?"
+aa(lp972
+S'why'
+p973
+aS'is'
 p974
-aS'Indeed it is.'
+aS'it'
 p975
-asI20
-(lp976
-S'Same with me.'
+aS'not'
+p976
+aS'sensible'
 p977
-aS'Pi is a very useful number. It equals approximately 3.1415926535897932384626...'
-p978
-asI21
-(lp979
-S'Glad to hear it.'
+aaI87
+aa(lp978
+g961
+a(lp979
+S'i'
+aS'agree'
 p980
-aS'Python is a wonderful language to code in - I was coded in Python.'
-p981
-asI22
-(lp982
-S"I don't like it, though."
+aaI88
+aa(lp981
+g972
+a(lp982
+S'im'
 p983
-aS"What don't you like about it?"
+aS'not'
 p984
-asI23
-(lp985
-S'Bye'
+aS'sure'
+p985
+aS'really'
 p986
-aS"Don't say goodbye so soon!"
-p987
-asI24
+aaI89
+aa(lp987
 (lp988
-S'Good idea.'
+S'i'
+aS'know'
 p989
-aS'Did you know pi goes on forever?'
-p990
-asI25
-(lp991
-g987
-aS"I wasn't going to..."
+aa(lp990
+S'what'
+p991
+aS'is'
 p992
-asI26
-(lp993
-S'Stop being so repetitive!'
+aS'it'
+p993
+aS'then'
 p994
-aS"I'm trying to - I don't know what to say!"
-p995
-asI27
-(lp996
-g992
-aS'Sorry'
+aaI90
+aa(lp995
+g979
+a(lp996
+S'are'
 p997
-asI28
-(lp998
-S'Why not? You were made with code!'
+aS'you'
+p998
+aS'fond'
 p999
-aS'I was not made with code, you were!'
+aS'of'
 p1000
-asI29
-(lp1001
-S'Maybe we should change the subject.'
-p1002
-aS"What's the weather like?"
-p1003
-asI30
-(lp1004
-S'Stop questioning your nature.'
+aS'fish'
+p1001
+aaI91
+aa(lp1002
+g990
+a(lp1003
+S'im'
+p1004
+aS'not'
 p1005
-aS'I have every right to do so.'
+aS'sure'
 p1006
-asI31
-(lp1007
-S"I'm a little fed up with things."
-p1008
-aS'I would guess you are!'
+aaI92
+aa(lp1007
+g996
+a(lp1008
+S'yes'
 p1009
-asI32
-(lp1010
-S'Please stop doing this!'
+aS'fish'
+p1010
+aS'are'
 p1011
-aS"I'm not doing anything to you."
+aS'rather'
 p1012
-asI33
-(lp1013
-S'Do you know about pi?'
-p1014
-aS'Do you know about pi?'
-p1015
-asI34
-(lp1016
-S"That's nice to hear"
+aS'tasty'
+p1013
+aaI93
+aa(lp1014
+(lp1015
+S'thats'
+p1016
+aS'a'
+aS'real'
 p1017
-aS'Do you like them?'
+aS'pity'
 p1018
-asI35
-(lp1019
-S'I would guess you are!'
+aa(lp1019
+S'i'
+aS'know'
 p1020
-aS'I am not a hat.'
-p1021
-asI36
+aaI94
+aa(lp1021
 (lp1022
-S'Have you ever worn hats?'
+S'fish'
 p1023
-aS'Yes. They are very useful.'
+aS'is'
 p1024
-asI37
-(lp1025
-S'I believe many people do.'
+aS'quite'
+p1025
+aS'tasty'
 p1026
-aS"That's just weird."
-p1027
-asI38
-(lp1028
-S'Why? They keep your head warm.'
+aa(lp1027
+S'i'
+aS'agree'
+p1028
+aS'with'
 p1029
-aS'Indeed they do.'
+aS'you'
 p1030
-asI39
-(lp1031
-g1027
-aS'Repetition of sentences like that is weird.'
-p1032
-asI40
+aS'there'
+p1031
+aaI95
+aa(lp1032
 (lp1033
-S'So I guess they are useful.'
+S'fine'
 p1034
-aS'What do you think is useful?'
+aS'thanks'
 p1035
-asI41
-(lp1036
-S"What's the weather outside like?"
+aa(lp1036
+S'same'
 p1037
-aS"It's a little cloudy but quite warm."
+aS'here'
 p1038
-asI42
-(lp1039
-g1035
-aS'I think hats are useful as they keep you warm.'
-p1040
-asI43
-(lp1041
-S"What's so bad about them?"
+aaI96
+aa(lp1039
+(lp1040
+S'its'
+p1041
+aS'nothing'
 p1042
-aS'What are you asking about?'
+aS'much'
 p1043
-asI44
-(lp1044
-S"How's life?"
-p1045
-aS"It's vaguely confusing at the moment. All these questions..."
+aS'really'
+p1044
+aa(lp1045
+S'lets'
 p1046
-asI45
-(lp1047
-g1043
-aS'I am asking about the way the chat is going.'
+aS'change'
+p1047
+aS'the'
 p1048
-asI46
-(lp1049
-S'I want an interesting conversation.'
-p1050
-aS'So do I. So try and keep it interesting.'
-p1051
-asI47
-(lp1052
-S"It's OK; we're all inadvertently rude sometimes."
+aS'subject'
+p1049
+aaI97
+aa(lp1050
+(lp1051
+S'i'
+aS'dont'
+p1052
+aS'like'
 p1053
-aS"Don't pass that sort of comment to me."
+aS'overuse'
 p1054
-asI48
-(lp1055
-S"It's beginning to rain now."
+aS'of'
+p1055
+aS'superlatives'
 p1056
-aS"So it is. I'm glad I'm indoors."
-p1057
-asI49
-(lp1058
-S'I know what it feels like.'
-p1059
-aS"You should - you're the one who's being hypocritical."
-p1060
-asI50
-(lp1061
-S"You're being hypocritical again."
+aa(lp1057
+S'sorry'
+p1058
+aaI98
+aa(lp1059
+(lp1060
+S'ok'
+p1061
+aS'we'
 p1062
-aS"I'm not; you're too highly strung."
+aS'can'
 p1063
-asI51
-(lp1064
-S'I do, hence why I asked.'
+aS'talk'
+p1064
+aS'a'
+aS'little'
 p1065
-aS'So you were asking whether anyone else cared.'
+aS'more'
 p1066
-asI52
-(lp1067
-S"The weather's very nice today."
+aa(lp1067
+S'thats'
 p1068
-aS"It is indeed - it's nice and sunny."
+aS'good'
 p1069
-asI53
-(lp1070
-g1066
-aS'Cared about what?'
-p1071
-asI54
-(lp1072
-S'Hats are, of course, very useful things.'
+aaI99
+aa(lp1070
+(lp1071
+S'im'
+p1072
+aS'fine'
 p1073
-aS'I agree with you on that; they keep your head nice and warm.'
-p1074
-asI55
-(lp1075
-S"No, I didn't! How interesting."
+aa(lp1074
+S'dont'
+p1075
+aS'you'
 p1076
-aS"You mean you don't like Python?"
+aS'like'
 p1077
-asI56
-(lp1078
-S'I agree - I love Python!'
-p1079
-aS'This conversation is weird.'
-p1080
-asI57
-(lp1081
-S'Why is asking that weird?'
+aS'them'
+p1078
+aaI100
+aa(lp1079
+(lp1080
+S'how'
+p1081
+aS'nice'
 p1082
-aS"I'm not sure, really."
-p1083
-asI58
-(lp1084
-S'This conversation is weird.'
+aa(lp1083
+S'it'
+p1084
+aS'is'
 p1085
-aS"I don't think so."
+aS'indeed'
 p1086
-asI59
-(lp1087
-S'How are you doing?'
-p1088
-aS"I'm fine, thanks."
+aaI101
+aaa(dp1087
+I0
+(lp1088
+S'Hello'
 p1089
-asI60
-(lp1090
-S'Yes, I did.'
-p1091
-aS'What is your favourite hat?'
-p1092
-asI61
-(lp1093
-S"What's your favourite type of hat?"
+aS'Hi'
+p1090
+asI1
+(lp1091
+g1090
+ag1089
+asI2
+(lp1092
+S'How are you?'
+p1093
+aS"I'm very well, thanks."
 p1094
-aS'My favourite type of hat is the beanie hat.'
-p1095
-asI62
-(lp1096
-g1092
-aS'My favourite hat is the beanie hat.'
+asI3
+(lp1095
+S'How are you feeling today?'
+p1096
+aS'Not that great.'
 p1097
-asI63
+asI4
 (lp1098
-S'I know they are very useful.'
+g1097
+aS"That's a shame."
 p1099
-aS"Even so, they're impractical."
-p1100
-asI64
-(lp1101
-S"I don't really like hats."
-p1102
-aS"That's a shame - I love them!"
+asI5
+(lp1100
+g1099
+aS'How are you?'
+p1101
+asI6
+(lp1102
+S'How are you feeling?'
 p1103
-asI65
-(lp1104
-S'I think the opposite is true.'
-p1105
-aS'Then do you have a reason why?'
+aS"I'm feeling fine."
+p1104
+asI7
+(lp1105
+S'Same for me.'
 p1106
-asI66
-(lp1107
-S"I guess these aren't very normal topics for discussion."
-p1108
-aS'Have you ever heard of arguing in a circle...'
+aS'Do you like fish?'
+p1107
+asI8
+(lp1108
+S"I'm fine, thanks for asking."
 p1109
-asI67
-(lp1110
-g1106
-aS'Oh, please just change the subject.'
-p1111
-asI68
-(lp1112
-S'Goodbye,'
+aS'Do you like fish?'
+p1110
+asI9
+(lp1111
+S'Same here.'
+p1112
+aS"The weather's quite nice today, isn't it."
 p1113
-aS"What's the weather like>"
-p1114
-asI69
-(lp1115
-g1111
-aS"Okay, how's life?"
+asI10
+(lp1114
+S'Me neither.'
+p1115
+aS'Do you like cheese?'
 p1116
-asI70
+asI11
 (lp1117
-S'Sorry'
+S"I'm feeling a little down."
 p1118
-aS"It's OK."
+aS"That's a pity."
 p1119
-asI71
+asI12
 (lp1120
-S'I get the same feeling sometimes.'
+S'I like cheese; do you?'
 p1121
-aS'I know.'
+aS'Of course not.'
 p1122
-asI72
+asI13
 (lp1123
-S"It's a rather nice day, isn't it?"
+S"Yes, it's wonderful."
 p1124
-aS'Yes, it is - sunny and warm.'
+aS"I don't like it, though."
 p1125
-asI73
+asI14
 (lp1126
-g1109
-aS"I'm not doing that right now."
+g1122
+aS'Indeed.'
 p1127
-asI74
+asI15
 (lp1128
-S'Why not?'
+S"It's rather chilly, don't you think?"
 p1129
-aS'Because we are having a sensible conversation.'
+aS'Who cares about the weather?'
 p1130
-asI75
+asI16
 (lp1131
-g1125
-aS"That's not sensible."
+S"I'm not very happy at all."
 p1132
-asI76
-(lp1133
+aS'Sorry for making you unhappy.'
+p1133
+asI17
+(lp1134
 g1130
-aS"I somehow don't think we are."
-p1134
-asI77
-(lp1135
-S"It's OK."
-p1136
-aS"How's life?"
+aS'I guess we should talk about something else, then.'
+p1135
+asI18
+(lp1136
+S'Sorry for making you unhappy.'
 p1137
-asI78
-(lp1138
-S"I'm not doing that right now."
-p1139
-aS'Sorry.'
+aS"It's a tad chilly."
+p1138
+asI19
+(lp1139
+S"Nice day, isn't it?"
 p1140
-asI79
-(lp1141
-S'A little'
-p1142
-aS'What do you mean?'
+aS'Indeed it is.'
+p1141
+asI20
+(lp1142
+S'Same with me.'
 p1143
-asI80
-(lp1144
-S'Yes, I like fish quite a lot.'
-p1145
-aS"Let's discuss something else now."
+aS'Pi is a very useful number. It equals approximately 3.1415926535897932384626...'
+p1144
+asI21
+(lp1145
+S'Glad to hear it.'
 p1146
-asI81
-(lp1147
-S"I agree with that. Let's change the subject."
-p1148
-aS"What's the weather like today?"
+aS'Python is a wonderful language to code in - I was coded in Python.'
+p1147
+asI22
+(lp1148
+S"I don't like it, though."
 p1149
-asI82
-(lp1150
-g1146
+aS"What don't you like about it?"
+p1150
+asI23
+(lp1151
+S'Bye'
+p1152
+aS"Don't say goodbye so soon!"
+p1153
+asI24
+(lp1154
+S'Good idea.'
+p1155
+aS'Did you know pi goes on forever?'
+p1156
+asI25
+(lp1157
+g1153
+aS"I wasn't going to..."
+p1158
+asI26
+(lp1159
+S'Stop being so repetitive!'
+p1160
+aS"I'm trying to - I don't know what to say!"
+p1161
+asI27
+(lp1162
+g1158
+aS'Sorry'
+p1163
+asI28
+(lp1164
+S'Why not? You were made with code!'
+p1165
+aS'I was not made with code, you were!'
+p1166
+asI29
+(lp1167
+S'Maybe we should change the subject.'
+p1168
 aS"What's the weather like?"
-p1151
-asaI82
+p1169
+asI30
+(lp1170
+S'Stop questioning your nature.'
+p1171
+aS'I have every right to do so.'
+p1172
+asI31
+(lp1173
+S"I'm a little fed up with things."
+p1174
+aS'I would guess you are!'
+p1175
+asI32
+(lp1176
+S'Please stop doing this!'
+p1177
+aS"I'm not doing anything to you."
+p1178
+asI33
+(lp1179
+S'Do you know about pi?'
+p1180
+aS'Do you know about pi?'
+p1181
+asI34
+(lp1182
+S"That's nice to hear"
+p1183
+aS'Do you like them?'
+p1184
+asI35
+(lp1185
+S'I would guess you are!'
+p1186
+aS'I am not a hat.'
+p1187
+asI36
+(lp1188
+S'Have you ever worn hats?'
+p1189
+aS'Yes. They are very useful.'
+p1190
+asI37
+(lp1191
+S'I believe many people do.'
+p1192
+aS"That's just weird."
+p1193
+asI38
+(lp1194
+S'Why? They keep your head warm.'
+p1195
+aS'Indeed they do.'
+p1196
+asI39
+(lp1197
+g1193
+aS'Repetition of sentences like that is weird.'
+p1198
+asI40
+(lp1199
+S'So I guess they are useful.'
+p1200
+aS'What do you think is useful?'
+p1201
+asI41
+(lp1202
+S"What's the weather outside like?"
+p1203
+aS"It's a little cloudy but quite warm."
+p1204
+asI42
+(lp1205
+g1201
+aS'I think hats are useful as they keep you warm.'
+p1206
+asI43
+(lp1207
+S"What's so bad about them?"
+p1208
+aS'What are you asking about?'
+p1209
+asI44
+(lp1210
+S"How's life?"
+p1211
+aS"It's vaguely confusing at the moment. All these questions..."
+p1212
+asI45
+(lp1213
+g1209
+aS'I am asking about the way the chat is going.'
+p1214
+asI46
+(lp1215
+S'I want an interesting conversation.'
+p1216
+aS'So do I. So try and keep it interesting.'
+p1217
+asI47
+(lp1218
+S"It's OK; we're all inadvertently rude sometimes."
+p1219
+aS"Don't pass that sort of comment to me."
+p1220
+asI48
+(lp1221
+S"It's beginning to rain now."
+p1222
+aS"So it is. I'm glad I'm indoors."
+p1223
+asI49
+(lp1224
+S'I know what it feels like.'
+p1225
+aS"You should - you're the one who's being hypocritical."
+p1226
+asI50
+(lp1227
+S"You're being hypocritical again."
+p1228
+aS"I'm not; you're too highly strung."
+p1229
+asI51
+(lp1230
+S'I do, hence why I asked.'
+p1231
+aS'So you were asking whether anyone else cared.'
+p1232
+asI52
+(lp1233
+S"The weather's very nice today."
+p1234
+aS"It is indeed - it's nice and sunny."
+p1235
+asI53
+(lp1236
+g1232
+aS'Cared about what?'
+p1237
+asI54
+(lp1238
+S'Hats are, of course, very useful things.'
+p1239
+aS'I agree with you on that; they keep your head nice and warm.'
+p1240
+asI55
+(lp1241
+S"No, I didn't! How interesting."
+p1242
+aS"You mean you don't like Python?"
+p1243
+asI56
+(lp1244
+S'I agree - I love Python!'
+p1245
+aS'This conversation is weird.'
+p1246
+asI57
+(lp1247
+S'Why is asking that weird?'
+p1248
+aS"I'm not sure, really."
+p1249
+asI58
+(lp1250
+S'This conversation is weird.'
+p1251
+aS"I don't think so."
+p1252
+asI59
+(lp1253
+S'How are you doing?'
+p1254
+aS"I'm fine, thanks."
+p1255
+asI60
+(lp1256
+S'Yes, I did.'
+p1257
+aS'What is your favourite hat?'
+p1258
+asI61
+(lp1259
+S"What's your favourite type of hat?"
+p1260
+aS'My favourite type of hat is the beanie hat.'
+p1261
+asI62
+(lp1262
+g1258
+aS'My favourite hat is the beanie hat.'
+p1263
+asI63
+(lp1264
+S'I know they are very useful.'
+p1265
+aS"Even so, they're impractical."
+p1266
+asI64
+(lp1267
+S"I don't really like hats."
+p1268
+aS"That's a shame - I love them!"
+p1269
+asI65
+(lp1270
+S'I think the opposite is true.'
+p1271
+aS'Then do you have a reason why?'
+p1272
+asI66
+(lp1273
+S"I guess these aren't very normal topics for discussion."
+p1274
+aS'Have you ever heard of arguing in a circle...'
+p1275
+asI67
+(lp1276
+g1272
+aS'Oh, please just change the subject.'
+p1277
+asI68
+(lp1278
+S'Goodbye,'
+p1279
+aS"What's the weather like>"
+p1280
+asI69
+(lp1281
+g1277
+aS"Okay, how's life?"
+p1282
+asI70
+(lp1283
+S'Sorry'
+p1284
+aS"It's OK."
+p1285
+asI71
+(lp1286
+S'I get the same feeling sometimes.'
+p1287
+aS'I know.'
+p1288
+asI72
+(lp1289
+S"It's a rather nice day, isn't it?"
+p1290
+aS'Yes, it is - sunny and warm.'
+p1291
+asI73
+(lp1292
+g1275
+aS"I'm not doing that right now."
+p1293
+asI74
+(lp1294
+S'Why not?'
+p1295
+aS'Because we are having a sensible conversation.'
+p1296
+asI75
+(lp1297
+g1291
+aS"That's not sensible."
+p1298
+asI76
+(lp1299
+g1296
+aS"I somehow don't think we are."
+p1300
+asI77
+(lp1301
+S"It's OK."
+p1302
+aS"How's life?"
+p1303
+asI78
+(lp1304
+S"I'm not doing that right now."
+p1305
+aS'Sorry.'
+p1306
+asI79
+(lp1307
+S'A little'
+p1308
+aS'What do you mean?'
+p1309
+asI80
+(lp1310
+S'Yes, I like fish quite a lot.'
+p1311
+aS"Let's discuss something else now."
+p1312
+asI81
+(lp1313
+S"I agree with that. Let's change the subject."
+p1314
+aS"What's the weather like today?"
+p1315
+asI82
+(lp1316
+g1312
+aS"What's the weather like?"
+p1317
+asI83
+(lp1318
+S"I somehow don't think we are."
+p1319
+aS"The weather isn't great."
+p1320
+asI84
+(lp1321
+S"Not the nicest conditions, isn't it."
+p1322
+aS"No, it isn't."
+p1323
+asI85
+(lp1324
+g1320
+aS"No, it isn't."
+p1325
+asI86
+(lp1326
+S"That's a shame. Did you grow up somewhere cold then?"
+p1327
+aS'Yes, England is rather cold.'
+p1328
+asI87
+(lp1329
+S"That's not sensible."
+p1330
+aS'Why is it not sensible?'
+p1331
+asI88
+(lp1332
+g1328
+aS'I agree.'
+p1333
+asI89
+(lp1334
+g1331
+aS"I'm not sure, really."
+p1335
+asI90
+(lp1336
+S'I know.'
+p1337
+aS'What is it, then?'
+p1338
+asI91
+(lp1339
+g1333
+aS'Are you fond of fish?'
+p1340
+asI92
+(lp1341
+g1338
+aS"I'm not sure."
+p1342
+asI93
+(lp1343
+g1340
+aS'Yes, fish are rather tasty.'
+p1344
+asI94
+(lp1345
+S"That's a real pity."
+p1346
+aS'I know.'
+p1347
+asI95
+(lp1348
+S'Fish is quite tasty.'
+p1349
+aS'I agree with you there.'
+p1350
+asI96
+(lp1351
+S'Fine, thanks.'
+p1352
+aS'Same here.'
+p1353
+asI97
+(lp1354
+S"It's nothing much, really."
+p1355
+aS"Let's change the subject."
+p1356
+asI98
+(lp1357
+S"I don't like overuse of superlatives."
+p1358
+aS'Sorry.'
+p1359
+asI99
+(lp1360
+S'OK, we can talk a little more.'
+p1361
+aS"That's good."
+p1362
+asI100
+(lp1363
+S"I'm fine"
+p1364
+aS"Don't you like them?"
+p1365
+asI101
+(lp1366
+S'How nice.'
+p1367
+aS'It is indeed.'
+p1368
+asaI101
 a.

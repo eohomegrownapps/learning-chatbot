@@ -162,7 +162,7 @@ class Responder:
 		#print sentencemean
 		rate = (length-rate)/((len(sentencea)+len(sentenceb))/2)
 		#print rate
-		rate = rate - (sentencemean/4)
+		rate = rate - (sentencemean/5)
 		return rate
 
 	def howcommon(self, sentence):

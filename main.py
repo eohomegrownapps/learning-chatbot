@@ -37,7 +37,7 @@ import pdb
 #give rate trigger value (called threshold) as storage in database
 
 #TODO: If respond fails (goes to statement), try a 'rate respond'. If this is over the threshold, give it.
-threshold = 0.5
+threshold = 0.4
 
 
 def quit(respond):
@@ -79,6 +79,28 @@ def findindexbyid(sid):
 		if statements[i][1] == sid:
 			return i
 
+def respondwithrate(answer):
+	index = 0
+	if len(answer) > 1:
+		#higher frequency of words in answer (in dict) - more common words means more likely to be a 'catch-all' answer.
+		arr = []
+		for i in range(0,len(answer)):
+			arr.append(responder.howcommon(answer[i][0]))
+		maximum = 0
+		for j in range(0, len(arr)):
+			if arr[j]>arr[maximum]:
+				maximum = j
+		index = maximum
+
+
+	rating = responder.rate(sentence, answer[index][0])
+	#print rating
+	#print answer
+	if rating > 0.4:
+		sentid = answer[0][2]
+		return fullcorp[sentid][1]
+	else:
+		return False
 
 
 #CONFIG
@@ -184,21 +206,28 @@ while True:
 
 
 		rating = responder.rate(sentence, answer[index][0])
-		if rating > 0.5:
+		if rating > threshold:
 			sentid = answer[0][2]
 			print fullcorp[sentid][1]
 		else:
-			#do the choose from statements thing
-			#what to do if no statements?
-			if len(statements)>1:
-				#print statements
-				#print fullstate
-				usestatement = statements[0][1]
-				returned = fullstate[usestatement]
-				print returned
+			testsentence = responder.responserate(sentence)
+			test = respondwithrate(testsentence)
+			if test == False:
+				#do the choose from statements thing
+				#what to do if no statements?
+				if len(statements)>1:
+					#print statements
+					#print fullstate
+					usestatement = statements[0][1]
+					returned = fullstate[usestatement]
+					print returned
+				else:
+					sentid = answer[0][2]
+					print fullcorp[sentid][1]
 			else:
-				sentid = answer[0][2]
-				print fullcorp[sentid][1]
+				print test
+
+	#add sentence to statements - check if it is already in statements 
 	addstate = "true"
 	for state in range(0,len(statements)):
 		#print "---"
