@@ -97,7 +97,9 @@ class Responder:
 	#	for i in sentences:
 	#		if word in 
 
-	def searchcorpus(self, word, corp):
+	def searchcorpus(self, word, corp = None):
+		if corp == None:
+			corp = self.corpus
 		result = []
 		for i in corp:
 			stripped = i[0]
@@ -107,7 +109,9 @@ class Responder:
 			return False
 		return result
 
-	def sentenceincorpus(self, sent, corp):
+	def sentenceincorpus(self, sent, corp = None):
+		if corp == None:
+			corp = self.corpus
 		result = []
 		for i in corp:
 			stripped = i[0]
