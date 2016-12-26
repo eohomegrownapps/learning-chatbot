@@ -1,0 +1,104 @@
+Could you please turn on the lights?
+0
+t
+[['could', 1.0], ['you', 1.0], ['please', 1.0], ['turn', 1.0], ['on', 1.0], ['the', 1.0], ['lights', 1.0]]
+Can you switch off the lights for me?
+0.428571428571
+t
+[['could', 1.0], ['you', 2.0], ['please', 1.0], ['turn', 1.0], ['on', 1.0], ['the', 2.0], ['lights', 2.0], ['can', 1.0], ['switch', 1.0], ['off', 1.0], ['for', 1.0], ['me', 1.0]]
+I hate light.
+0
+f
+[['could', 1.0], ['you', 2.0], ['please', 1.0], ['turn', 1.0], ['on', 1.0], ['the', 2.0], ['lights', 2.0], ['can', 1.0], ['switch', 1.0], ['off', 1.0], ['for', 1.0], ['me', 1.0], ['i', -1.0], ['hate', -1.0], ['light', -1.0]]
+Can I have some light?
+-0.0833333333333
+t
+[['could', 1.0], ['you', 2.0], ['please', 1.0], ['turn', 1.0], ['on', 1.0], ['the', 2.0], ['lights', 2.0], ['can', 2.0], ['switch', 1.0], ['off', 1.0], ['for', 1.0], ['me', 1.0], ['i', 0.0], ['hate', -1.0], ['light', 0.0], ['have', 1.0], ['some', 1.0]]
+I would like some light.
+0.0588235294118
+t                 
+[['could', 1.0], ['you', 2.0], ['please', 1.0], ['turn', 1.0], ['on', 1.0], ['the', 2.0], ['lights', 2.0], ['can', 2.0], ['switch', 1.0], ['off', 1.0], ['for', 1.0], ['me', 1.0], ['i', 1.0], ['hate', -1.0], ['light', 1.0], ['have', 1.0], ['some', 2.0], ['would', 1.0], ['like', 1.0]]
+Don't turn on the lights.
+0.272727272727
+f   
+[['could', 1.0], ['you', 2.0], ['please', 1.0], ['turn', 0.0], ['on', 0.0], ['the', 1.0], ['lights', 1.0], ['can', 2.0], ['switch', 1.0], ['off', 1.0], ['for', 1.0], ['me', 1.0], ['i', 1.0], ['hate', -1.0], ['light', 1.0], ['have', 1.0], ['some', 2.0], ['would', 1.0], ['like', 1.0], ['dont', -1.0]]
+Do not turn on the lights.
+0.117647058824
+f
+[['could', 1.0], ['you', 2.0], ['please', 1.0], ['turn', -1.0], ['on', -1.0], ['the', 0.0], ['lights', 0.0], ['can', 2.0], ['switch', 1.0], ['off', 1.0], ['for', 1.0], ['me', 1.0], ['i', 1.0], ['hate', -1.0], ['light', 1.0], ['have', 1.0], ['some', 2.0], ['would', 1.0], ['like', 1.0], ['dont', -1.0], ['do', -1.0], ['not', -1.0]]
+Please would you switch the lights off?
+0.545454545455
+Turn on the lights
+[['could', 1.0], ['you', 2.0], ['please', 1.0], ['turn', -1.0], ['on', -1.0], ['the', 0.0], ['lights', 0.0], ['can', 2.0], ['switch', 1.0], ['off', 1.0], ['for', 1.0], ['me', 1.0], ['i', 1.0], ['hate', -1.0], ['light', 1.0], ['have', 1.0], ['some', 2.0], ['would', 1.0], ['like', 1.0], ['dont', -1.0], ['do', -1.0], ['not', -1.0]]
+Please would you switch the lights off?
+0.545454545455
+t
+[['could', 1.0], ['you', 3.0], ['please', 2.0], ['turn', -1.0], ['on', -1.0], ['the', 1.0], ['lights', 1.0], ['can', 2.0], ['switch', 2.0], ['off', 2.0], ['for', 1.0], ['me', 1.0], ['i', 1.0], ['hate', -1.0], ['light', 1.0], ['have', 1.0], ['some', 2.0], ['would', 2.0], ['like', 1.0], ['dont', -1.0], ['do', -1.0], ['not', -1.0]]
+Lights on please!
+0.111111111111
+I love light.
+[['could', 1.0], ['you', 3.0], ['please', 2.0], ['turn', -1.0], ['on', -1.0], ['the', 1.0], ['lights', 1.0], ['can', 2.0], ['switch', 2.0], ['off', 2.0], ['for', 1.0], ['me', 1.0], ['i', 1.0], ['hate', -1.0], ['light', 1.0], ['have', 1.0], ['some', 2.0], ['would', 2.0], ['like', 1.0], ['dont', -1.0], ['do', -1.0], ['not', -1.0]]
+Lights on please!
+0.111111111111
+t
+[['could', 1.0], ['you', 3.0], ['please', 3.0], ['turn', -1.0], ['on', 0.0], ['the', 1.0], ['lights', 2.0], ['can', 2.0], ['switch', 2.0], ['off', 2.0], ['for', 1.0], ['me', 1.0], ['i', 1.0], ['hate', -1.0], ['light', 1.0], ['have', 1.0], ['some', 2.0], ['would', 2.0], ['like', 1.0], ['dont', -1.0], ['do', -1.0], ['not', -1.0]]
+I love light.
+0.0952380952381
+t
+[['could', 1.0], ['you', 3.0], ['please', 3.0], ['turn', -1.0], ['on', 0.0], ['the', 1.0], ['lights', 2.0], ['can', 2.0], ['switch', 2.0], ['off', 2.0], ['for', 1.0], ['me', 1.0], ['i', 2.0], ['hate', -1.0], ['light', 2.0], ['have', 1.0], ['some', 2.0], ['would', 2.0], ['like', 1.0], ['dont', -1.0], ['do', -1.0], ['not', -1.0], ['love', 1.0]]
+Could you turn the lights on?
+0.25
+t 
+[['could', 2.0], ['you', 4.0], ['please', 3.0], ['turn', 0.0], ['on', 1.0], ['the', 2.0], ['lights', 3.0], ['can', 2.0], ['switch', 2.0], ['off', 2.0], ['for', 1.0], ['me', 1.0], ['i', 2.0], ['hate', -1.0], ['light', 2.0], ['have', 1.0], ['some', 2.0], ['would', 2.0], ['like', 1.0], ['dont', -1.0], ['do', -1.0], ['not', -1.0], ['love', 1.0]]
+Light of the world, you came down into darkness
+0.266666666667
+f
+[['could', 2.0], ['you', 3.0], ['please', 3.0], ['turn', 0.0], ['on', 1.0], ['the', 1.0], ['lights', 3.0], ['can', 2.0], ['switch', 2.0], ['off', 2.0], ['for', 1.0], ['me', 1.0], ['i', 2.0], ['hate', -1.0], ['light', 1.0], ['have', 1.0], ['some', 2.0], ['would', 2.0], ['like', 1.0], ['dont', -1.0], ['do', -1.0], ['not', -1.0], ['love', 1.0], ['of', -1.0], ['world', -1.0], ['came', -1.0], ['down', -1.0], ['into', -1.0], ['darkness', -1.0]]
+Light of the world, you came down into darkness
+-0.047619047619
+f
+[['could', 2.0], ['you', 2.0], ['please', 3.0], ['turn', 0.0], ['on', 1.0], ['the', 0.0], ['lights', 3.0], ['can', 2.0], ['switch', 2.0], ['off', 2.0], ['for', 1.0], ['me', 1.0], ['i', 2.0], ['hate', -1.0], ['light', 0.0], ['have', 1.0], ['some', 2.0], ['would', 2.0], ['like', 1.0], ['dont', -1.0], ['do', -1.0], ['not', -1.0], ['love', 1.0], ['of', -2.0], ['world', -2.0], ['came', -2.0], ['down', -2.0], ['into', -2.0], ['darkness', -2.0]]
+Can could you please    
+0.75
+f
+[['could', 1.0], ['you', 1.0], ['please', 2.0], ['turn', 0.0], ['on', 1.0], ['the', 0.0], ['lights', 3.0], ['can', 1.0], ['switch', 2.0], ['off', 2.0], ['for', 1.0], ['me', 1.0], ['i', 2.0], ['hate', -1.0], ['light', 0.0], ['have', 1.0], ['some', 2.0], ['would', 2.0], ['like', 1.0], ['dont', -1.0], ['do', -1.0], ['not', -1.0], ['love', 1.0], ['of', -2.0], ['world', -2.0], ['came', -2.0], ['down', -2.0], ['into', -2.0], ['darkness', -2.0]]
+^CTraceback (most recent call last):
+  File "chatbot.py", line 92, in <module>
+    sentenceoriginal = sys.stdin.readline()
+KeyboardInterrupt
+Euans-MacBook-Pro:LightsResponder eohomegrownapps$ python chatbot.py 
+Please could you turn on the lights?
+0
+t
+[['please', 1.0], ['could', 1.0], ['you', 1.0], ['turn', 1.0], ['on', 1.0], ['the', 1.0], ['lights', 1.0]]
+^CTraceback (most recent call last):
+  File "chatbot.py", line 92, in <module>
+    d[occ[0]][1]+=mult
+KeyboardInterrupt
+Euans-MacBook-Pro:LightsResponder eohomegrownapps$ python chatbot.py 
+Please could you turn on the lights?
+Traceback (most recent call last):
+  File "chatbot.py", line 114, in <module>
+    print c.respond(sentenceoriginal)
+  File "chatbot.py", line 51, in respond
+    bias += self.calculateBias(i,True)
+  File "chatbot.py", line 56, in calculateBias
+    occf = self.occurrences(word,)
+TypeError: occurrences() takes exactly 3 arguments (2 given)
+Euans-MacBook-Pro:LightsResponder eohomegrownapps$ python chatbot.py 
+Please could you turn on the lights?
+0
+t
+Traceback (most recent call last):
+  File "chatbot.py", line 117, in <module>
+    c.addSentence(sentenceoriginal,True)
+  File "chatbot.py", line 94, in addSentence
+    d.append([i,float(mult)])
+NameError: global name 'mult' is not defined
+Euans-MacBook-Pro:LightsResponder eohomegrownapps$ python chatbot.py 
+Please could you turn on the lights?
+0
+t
+[['please', 1], ['could', 1], ['you', 1], ['turn', 1], ['on', 1], ['the', 1], ['lights', 1]]
+[]
+
